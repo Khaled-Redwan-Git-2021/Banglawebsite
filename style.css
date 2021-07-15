@@ -1,0 +1,21 @@
+.container p{
+    font-size: 14px;
+    text-align: justify;
+
+}
+.R h3{
+    font-size: 18px;
+
+}
+
+body::before{
+    display:block;
+    content: '';
+    height: 60px;
+}
+
+@media(min-width: 768px) {
+    .news-input{
+        width: 50%;
+    }
+}
